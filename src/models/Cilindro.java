@@ -28,9 +28,9 @@ public class Cilindro extends Circulo{
     public String toString() {
         return "Cilindro{" +
                 "Radio= " + getRadio() +
-                "Altura= " + altura +
-                "Area= " + getArea() +
-                "Volumen= " + getVolumen() +
+                ", Altura= " + altura +
+                ", Area= " + getArea() +
+                ", Volumen= " + getVolumen() +
                 '}';
     }
 

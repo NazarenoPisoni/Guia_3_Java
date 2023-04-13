@@ -1,8 +1,8 @@
 package models;
 
 public class Circulo {
-    private double radio;
-    private String color;
+    private double radio = 1.0;
+    private String color = "Rojo";
 
     public Circulo() {
     }
