@@ -1,7 +1,7 @@
 package models;
 
 public class Figura {
-    private String color;
+    private String color = "Negro";
 
     public Figura() {
     }
@@ -18,6 +18,10 @@ public class Figura {
         this.color = color;
     }
 
-    public void calcularArea(){};
-    public void calcularPerimetro(){};
+    public double calcularArea(){
+        return 0;
+    };
+    public double calcularPerimetro(){
+        return 0;
+    };
 }

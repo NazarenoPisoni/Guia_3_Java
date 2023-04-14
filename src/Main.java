@@ -63,5 +63,14 @@ public class Main {
         }
 
         System.out.println("El total de Cuotas abonadas por los estudiantes es de $" + totalCuotas);
+
+        Rectangulo r1 = new Rectangulo("Naranja", 30, 15);
+        System.out.println(r1.toString());
+
+        Circulo2 circ1 = new Circulo2("Azul", 6.4);
+        System.out.println(circ1.toString());
+
+        Cuadrado cd1 = new Cuadrado("Blanco", 20, 20);
+        System.out.println(cd1.toString());
     }
 }
